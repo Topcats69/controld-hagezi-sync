@@ -25,7 +25,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Main" , "Kayla"]
+names = ["Main","Kayla"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
