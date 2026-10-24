@@ -1,5 +1,5 @@
 # =============================================================================
-# ControlD Hagezi Sync — Configuration
+# ControlD HageZi Sync — Configuration
 # =============================================================================
 # Copy this file to config.toml and customize it.
 # DO NOT commit config.toml if it contains your API token.
@@ -25,7 +25,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Main","Kayla"]
+names = ["Main", "Kayla"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -35,11 +35,11 @@ names = ["Main","Kayla"]
 # =============================================================================
 
 [folders]
-"Badware Hoster"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
-"Most Abused TLDs"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json"
-"No Safesearch Support"  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/nosafesearch-folder.json"
-"Referral Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
-"META Tracker Allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
+"Badware Hoster"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
+"Most Abused TLDs"      = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json"
+"No Safesearch Support" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/nosafesearch-folder.json"
+"Referral Allow"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
+"META Tracker Allow"    = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -49,15 +49,16 @@ names = ["Main","Kayla"]
 # =============================================================================
 
 [profile_folders]
-    Kayla = [
+Kayla = [
   "Badware Hoster",
   "Most Abused TLDs",
   "No Safesearch Support",
-  "Referral Allow"]
-  
-  Main = [
+  "Referral Allow",
+]
+
+Main = [
   "Badware Hoster",
   "Most Abused TLDs",
   "Referral Allow",
-  "META Tracker Allow"
+  "META Tracker Allow",
 ]
