@@ -6,5 +6,8 @@
 *.swp
 *.swo
 
+# Local configuration and secrets
+config.toml
+
 # Star History charts
 star-history*.svg
